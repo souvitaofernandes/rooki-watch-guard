@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <section className="pt-24 pb-16 px-4 bg-rookiBlack min-h-[90vh] flex items-center">
       <div className="container mx-auto">
-        <div className="max-w-2xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto text-center">
           <div className="mb-4 flex justify-center">
             <div className="inline-block p-2 bg-rookiGreen rounded-full animate-pulse">
               <span className="text-3xl">👁️‍🗨️</span>
@@ -15,11 +15,11 @@ const HeroSection = () => {
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-rookiWhite leading-tight">
-            Descubra se é golpe em <span className="text-rookiGreen">segundos.</span>
+            Descubra se é golpe: envie a mensagem para o <span className="text-rookiGreen">Rooki</span> no WhatsApp e receba uma análise instantânea
           </h1>
           
-          <p className="text-xl md:text-2xl text-rookiGray mb-8 max-w-xl mx-auto">
-            Rooki analisa mensagens suspeitas e te protege na hora.
+          <p className="text-xl md:text-2xl text-rookiGray mb-8 max-w-2xl mx-auto">
+            Segurança digital simplificada: identifique golpes online com ajuda da nossa inteligência artificial
           </p>
           
           <div className="mb-12">
@@ -28,7 +28,7 @@ const HeroSection = () => {
               className="bg-rookiGreen text-rookiBlack hover:bg-rookiGreen/90 font-semibold text-lg px-8 py-6 rounded-full"
               onClick={() => window.open('https://wa.me/1234567890', '_blank')}
             >
-              Testar agora via WhatsApp
+              Envie sua mensagem suspeita agora via WhatsApp
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             
